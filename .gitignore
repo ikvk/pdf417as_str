@@ -1,0 +1,15 @@
+*.orig
+MANIFEST
+/dist/
+/.idea/
+/__pycache__/
+/test/barcodes/
+/test/libs/
+
+
+
+/tests/credentials.ini
+/examples/test.py
+/examples/notes.txt
+/.python-version
+/.idea/

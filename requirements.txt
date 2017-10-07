@@ -1,0 +1,5 @@
+# for run tests and convert.to_png
+# Pillow==4.3.0
+
+# only for run tests
+# requests==2.5.1
