@@ -2,8 +2,8 @@ import html
 import os
 from random import randint
 import requests
-import convert
-import main
+from pdf417as_str import convert
+from pdf417as_str import main
 
 # supported symbols
 symbols = ' !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~'
