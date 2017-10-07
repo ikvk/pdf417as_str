@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='pdf417as_str',
-    version='0.1',
+    version='0.2',
     packages=['pdf417as_str'],
     url='https://github.com/ikvk/pdf417as_str',
     license='GPLv3',
