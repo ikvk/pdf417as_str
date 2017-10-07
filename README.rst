@@ -44,8 +44,7 @@ Installation
 Authors
 -------
 
-* Original code on VisualBasic and Code PDF417 font:
-  Bazin Jean-Marie, http://grandzebu.net/informatique/codbar-en/pdf417.htm
+* `Original code <http://grandzebu.net/informatique/codbar-en/pdf417.htm>`_ on VisualBasic and Code PDF417 font:
+  `Bazin Jean-Marie <http://grandzebu.net/>`_
 
-* Porting to python, writing tests:
-  I'm, https://github.com/ikvk
+* Porting to python, writing tests: `I'm <https://github.com/ikvk>`_
