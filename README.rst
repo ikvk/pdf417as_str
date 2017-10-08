@@ -20,7 +20,7 @@ How it works
 
     pdf417text = pdf417as_str.encode('https://github.com')
 
-3. Paste encoded text into any text editor and choose pdf417.ttf font for it.
+3. Paste encoded text into any text editor and choose "Code PDF417" font for it.
 
   ::
 
@@ -44,7 +44,7 @@ Installation
 Authors
 -------
 
-* `Original code <http://grandzebu.net/informatique/codbar-en/pdf417.htm>`_ on VisualBasic and Code PDF417 font:
+* `Original code <http://grandzebu.net/informatique/codbar-en/pdf417.htm>`_ on VisualBasic and "Code PDF417" font:
   `Bazin Jean-Marie <http://grandzebu.net/>`_
 
 * Porting to python, writing tests: `I'm <https://github.com/ikvk>`_
