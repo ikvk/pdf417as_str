@@ -27,6 +27,8 @@ How it works
 NOTE: With some font sizes there will be empty space between rows.
 It will not affect to reading barcode, but you can find suited size anyway.
 
+Actually you can make png barcode, using pdf417as_str.convert.to_png, but this function not efficient.
+
 Installation
 ------------
 ::
