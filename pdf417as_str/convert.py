@@ -3,8 +3,7 @@ from PIL import Image, ImageFont, ImageDraw, ImageChops, ImageOps
 
 def to_png(string, border=10):
     """
-    TEST FUNCTION for create png by pdf417 text code
-    approximate time of creation: 0.5 sec
+    Create png by pdf417 text code
     * I'm sure there are more efficient solutions for create barcode png
     * I don't recommend use this function in production
     

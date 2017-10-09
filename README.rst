@@ -1,7 +1,7 @@
 pdf417as_str
 ============
 
-PDF417 barcode font and encoder for it.
+Package for work with pdf417 barcodes without using images. Contains font and encoder for it.
 
 ===================  ===========================================
 Python version       3.3+
@@ -16,19 +16,11 @@ How it works
 
 2. Encode your data string into special encoded strings.
 
-  ::
+.. code-block:: python
 
-    pdf417text = pdf417as_str.encode('https://github.com')
+    pdf417_encoded_text = pdf417as_str.encode('https://github.com')
 
-3. Paste encoded text into any text editor and choose "Code PDF417" font for it.
-
-  ::
-
-    +*pBk*uiz*Aoc*yyf*ypy*-
-    +*xcE*tlu*boy*ziv*xcc*-
-    +*ejA*akw*jsx*rso*eBw*-
-
-4. You will see pdf417 barcode.
+3. Paste encoded text into any text editor and choose "Code PDF417" font. You will receive pdf417 barcode.
 
   .. image:: https://github.com/ikvk/pdf417as_str/blob/master/test/barcode.png
 

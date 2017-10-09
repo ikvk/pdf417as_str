@@ -1,4 +1,4 @@
 include LICENSE
 include MANIFEST.in
 include *.rst
-include font/pdf417.ttf
+include font
