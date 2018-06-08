@@ -5,7 +5,7 @@ Package for work with pdf417 barcodes without using images. Contains font and en
 
 ===================  ===========================================
 Python version       3.3+
-License              GPLv3
+License              LGPLv3
 PyPI                 https://pypi.python.org/pypi/pdf417as_str/
 ===================  ===========================================
 
