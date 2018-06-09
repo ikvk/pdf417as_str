@@ -1,7 +1,7 @@
 pdf417as_str
 ============
 
-Package for work with pdf417 barcodes without using images. Contains font and encoder for it.
+Create pdf417 barcode without using images.
 
 ===================  ===========================================
 Python version       3.3+
@@ -42,3 +42,8 @@ Authors
   `Bazin Jean-Marie <http://grandzebu.net/>`_
 
 * Porting to python, writing tests: `I'm <https://github.com/ikvk>`_
+
+Thanks to
+---------
+
+`pennersr <https://github.com/pennersr>`_
