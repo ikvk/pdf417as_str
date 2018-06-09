@@ -5,7 +5,7 @@ setup(
     version='0.3',
     packages=['pdf417as_str'],
     url='https://github.com/ikvk/pdf417as_str',
-    license='GPLv3',
+    license='LGPLv3',
     long_description=open("README.rst").read(),
     author='v.kaukin',
     author_email='workkvk@gmail.com',
