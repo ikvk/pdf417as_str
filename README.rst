@@ -33,7 +33,7 @@ Installation
 ------------
 ::
 
-    $ pip install pdf417as_str
+    $ pip install pdf417as-str
 
 Authors
 -------
