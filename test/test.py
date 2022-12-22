@@ -39,7 +39,7 @@ if __name__ == '__main__':
     for test_i, test_value in enumerate(test_data):
         test_text = test_value[0]
         # make text code
-        code = main.encode(test_value[0], test_value[1])
+        code = main.encode417(test_value[0], test_value[1])
         # make png
         img_name = 'barcode' + str(test_i)
         image = convert.to_png(code)

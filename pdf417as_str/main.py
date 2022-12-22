@@ -1,7 +1,7 @@
 import math
 
 
-def encode(string, columns=-1, security=-1):
+def encode417(string, columns=-1, security=-1):
     """
     :param string: str, string to encode
     :param columns: int, number of data columns, (columns < 1 - auto)
@@ -446,7 +446,7 @@ def encode(string, columns=-1, security=-1):
                         total = 0
                         for k in range(length):
                             total += (
-                                ord(string[chain_index + j + k - 1: chain_index + j + k]) * 256 ** (length - 1 - k))
+                                    ord(string[chain_index + j + k - 1: chain_index + j + k]) * 256 ** (length - 1 - k))
                         # at Visual Basic 6 was this strange code:
                         # chain_mod = Format(total, "general number")
                         # I don't know what's this mean...
@@ -555,7 +555,7 @@ def encode(string, columns=-1, security=-1):
                 mc_correction[j] = (929 - (total * int(coef_rs[security][j * 3: j * 3 + 3])) % 929) % 929
             else:
                 mc_correction[j] = (mc_correction[j - 1] + 929 - (
-                    total * int(coef_rs[security][j * 3:j * 3 + 3])) % 929) % 929
+                        total * int(coef_rs[security][j * 3:j * 3 + 3])) % 929) % 929
     for j in range(k):
         if mc_correction[j] != 0:
             mc_correction[j] = 929 - mc_correction[j]

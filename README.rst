@@ -1,7 +1,9 @@
 pdf417as_str
 ============
 
-Create pdf417 barcode without using images.
+Create pdf417 barcode by special font without using images.
+
+.. image:: https://img.shields.io/pypi/dm/pdf417as_str.svg?style=social
 
 ===================  ===========================================
 Python version       3.3+
@@ -18,16 +20,24 @@ How it works
 
 .. code-block:: python
 
-    pdf417_encoded_text = pdf417as_str.encode('https://github.com')
+    pdf417_encoded_text = pdf417as_str.encode417('https://github.com', columns=5)
 
-3. Paste encoded text into any text editor and choose "Code PDF417" font. You will receive pdf417 barcode.
+3. Paste encoded text into any text editor.
+
+::
+
+    +*xfs*prA*kuk*iDo*ixA*sxn*xdw*-
+    +*yog*slv*Arv*Fyg*tgE*fwg*zew*-
+    +*uny*BCj*iaw*jcE*AxD*ykx*pDw*-
+    +*ftw*sgf*AoC*dAc*ajb*ofA*yrx*-
+
+4. Choose "Code PDF417" font for text and adjust line spacing. You will receive pdf417 barcode.
 
   .. image:: https://github.com/ikvk/pdf417as_str/blob/master/test/barcode.png
 
-NOTE: With some font sizes there will be empty space between rows.
-It will not affect to reading barcode, but you can find suited size anyway.
+NOTE: Small empty space between rows not affects to reading barcode. Anyway you can find suited size.
 
-Actually you can make png barcode, using pdf417as_str.convert.to_png, but this function not efficient.
+Also you can make .png barcode using pdf417as_str.convert.to_png, but this function for tests and not efficient.
 
 Installation
 ------------
