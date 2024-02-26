@@ -1,3 +1,7 @@
+1.1.0
+=====
+* Fixed bugged release after rename encode to encode417
+
 1.0.0
 =====
 * encode fn renamed to encode417

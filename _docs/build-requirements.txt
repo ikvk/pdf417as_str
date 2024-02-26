@@ -1,4 +1,5 @@
-pip
 setuptools
 twine
 wheel
+
+pillow

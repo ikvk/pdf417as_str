@@ -1,6 +1,9 @@
 *.orig
+__pycache__
 MANIFEST
+/*.egg-info/
 /dist/
+/build/
 /.idea/
 /__pycache__/
 /test/barcodes/

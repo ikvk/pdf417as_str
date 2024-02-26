@@ -10,14 +10,15 @@ https://packaging.python.org/tutorials/packaging-projects/
     https://docs.python.org/3/distutils/packageindex.html#pypirc
 
 2. Install/update build libs:
-    C:\python\venv\pdf417as_str\Scripts\pip install --upgrade -r C:\kvk\develop\Python\pdf417as_str\_docs\build-requirements.txt
+    C:\python\venv\pdf417as_str311\Scripts\python.exe -m pip install --upgrade pip
+    C:\python\venv\pdf417as_str311\Scripts\pip install --upgrade -r C:\kvk\develop\Python\pdf417as_str\_docs\build-requirements.txt
 
 3. Generating distribution archives
     cd C:\kvk\develop\Python\pdf417as_str\
-    C:\python\venv\pdf417as_str\Scripts\python.exe C:\kvk\develop\Python\pdf417as_str\setup.py sdist
+    C:\python\venv\pdf417as_str311\Scripts\python.exe C:\kvk\develop\Python\pdf417as_str\setup.py sdist bdist_wheel
 
 4. Check the distribution archives:
-    C:\python\venv\pdf417as_str\Scripts\python.exe -m twine check dist/*
+    C:\python\venv\pdf417as_str311\Scripts\python.exe -m twine check dist/*
 
 5. Uploading the distribution archives:
-    C:\python\venv\pdf417as_str\Scripts\python.exe -m twine upload dist/*
+    C:\python\venv\pdf417as_str311\Scripts\python.exe -m twine upload dist/*

@@ -5,7 +5,7 @@ with open("README.rst", "r", encoding='utf-8') as fh:
 
 setup(
     name='pdf417as-str',
-    version='1.0.0',
+    version='1.1.0',
     packages=['pdf417as_str'],
     url='https://github.com/ikvk/pdf417as_str',
     license='LGPLv3',
