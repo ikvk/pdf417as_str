@@ -56,4 +56,5 @@ Authors
 Thanks to
 ---------
 
-`pennersr <https://github.com/pennersr>`_
+`pennersr <https://github.com/pennersr>`_,
+`orsinium <https://github.com/orsinium>`_
